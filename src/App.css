@@ -10,3 +10,9 @@ body {
     format('truetype');
  
 }
+
+@font-face {
+    font-family: 'FUtura Book font';
+    src: url('./fonts/Futura\ Book\ font.ttf')
+    format('truetype');
+}

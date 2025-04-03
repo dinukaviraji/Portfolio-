@@ -1,7 +1,7 @@
 const Navbar: React.FC = () => {
 
     return (
-        <nav className=" bg-white text-black ">
+        <nav className=" bg-#bebeb8 text-black py-4">
             <div className="flex justify-center">
                 <ul className="flex space-x-10">
                     <li> About </li>
