@@ -1,4 +1,4 @@
-// import GitHublogo from '../assets/github-logo.svg';
+import GitHublogo from '../assets/github-logo.svg';
 
 const HeroSection: React.FC = () => {
     return (
@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
                 </button>
 
                 
-                {/* <img src={GitHublogo} alt='github logo' height={30} width={30} ></img> */}
+                <img src={GitHublogo} alt='github logo' height={30} width={30} ></img>
  
             </div>
         </div>
