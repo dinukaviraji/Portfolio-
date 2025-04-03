@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+    background:#bebeb8;
+}
+
+@font-face {
+    font-family: 'brown-sugar';
+    src: url('./fonts/brown-sugar.ttf')
+    format('truetype');
+ 
+}
