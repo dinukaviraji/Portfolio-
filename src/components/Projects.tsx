@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
           <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold text-gray-800 mb-2">Personal Finance Tracker</h2>
             <p> Python </p>
-            <p className="text-gray-600">A Python-based personal finance tracker with a user-friendly Tkinter GUI for managing expenses and income. The application supports sortable columns for ascending and descending order, enhancing data organization. A built-in search bar allows quick filtering of transactions.
+            <p className="text-gray-600 mt-3">A Python-based personal finance tracker with a user-friendly Tkinter GUI for managing expenses and income. The application supports sortable columns for ascending and descending order, enhancing data organization. A built-in search bar allows quick filtering of transactions.
 
             </p>
             {/* <button className="mt-auto self-start bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
           <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold text-gray-800 mb-2">Student Management System</h2>
             <p> Java </p>
-            <p className="text-gray-600">A Java-based console application designed to streamline student registration and academic performance tracking for universities. It supports student data management, module mark entry, automatic grade calculation, and the generation of both summary and detailed performance reports. Key features include file handling, custom sorting, and object-oriented design principles.
+            <p className="text-gray-600 mt-3">A Java-based console application designed to streamline student registration and academic performance tracking for universities. It supports student data management, module mark entry, automatic grade calculation, and the generation of both summary and detailed performance reports. Key features include file handling, custom sorting, and object-oriented design principles.
 
             </p>
             {/* <button className="mt-auto self-start bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
