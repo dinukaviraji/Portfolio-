@@ -5,8 +5,8 @@ const Navbar: React.FC = () => {
             <div className="flex justify-center">
                 <ul className="flex space-x-10 cursor-pointer">
                     <li><a href=""> About </a></li>
-                    <li><a> Skills </a></li>
-                    <li><a href="/Projects"> Projects </a> </li>
+                    <li><a href="#Skills"> Skills </a></li>
+                    <li><a href="#Projects"> Projects </a> </li>
                     <li><a> Certifications</a></li>
                     <li><a> Education</a></li>
                     <li><a> Contact </a></li>
