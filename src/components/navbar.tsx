@@ -1,15 +1,15 @@
 const Navbar: React.FC = () => {
 
     return (
-        <nav className=" bg-#bebeb8 text-black py-4">
+        <nav className="fixed top-0 left-0 w-full  text-black py-4 shadow-md backdrop-blur-md ">
             <div className="flex justify-center">
-                <ul className="flex space-x-10">
-                    <li> About </li>
-                    <li> Skills </li>
-                    <li> Projects </li>
-                    <li> Certifications</li>
-                    <li> Education</li>
-                    <li> Contact </li>
+                <ul className="flex space-x-10 cursor-pointer">
+                    <li><a href=""> About </a></li>
+                    <li><a> Skills </a></li>
+                    <li><a href="/Projects"> Projects </a> </li>
+                    <li><a> Certifications</a></li>
+                    <li><a> Education</a></li>
+                    <li><a> Contact </a></li>
                 </ul>
             </div>
             

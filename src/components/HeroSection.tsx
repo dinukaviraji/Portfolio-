@@ -2,7 +2,7 @@ import GitHublogo from '../assets/github-logo.svg';
 
 const HeroSection: React.FC = () => {
     return (
-        <div className="mt-20 flex justify-center mb-20">
+        <div className="mt-50 flex justify-center mb-30">
             <div className="text-left">
                 <p className="">Hello, my name is</p>
                 <p className="font-Futura Book font text-6xl font-bold text-amber-700 mb-2">Dinuka Viraji</p>

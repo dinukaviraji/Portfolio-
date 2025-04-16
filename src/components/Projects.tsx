@@ -74,7 +74,8 @@ const Projects: React.FC = () => {
             <p className="text-gray-600 mt-3">A Sinhala grammar checker and language learning tool that helps users write accurately and confidently. Vyakarana detects grammar errors and suggests corrections to improve writing. It also supports learning Sinhala by offering Sinhala grammar rules, synonyms, antonyms and paired words.
 
             </p>
-            <button className="mt-auto self-start bg-amber-600 text-white px-4 py-2 rounded-4xl flex hover:scale-105">
+            <button className="mt-auto self-start bg-amber-600 text-white px-4 py-2 rounded-4xl flex hover:scale-105 cursor-pointer gap-1" 
+            onClick={() => window.open('https://youtu.be/drXpTm61dBU', '_blank')}>
               <img src={youtube} /> 
               Demo
             </button>
@@ -82,7 +83,7 @@ const Projects: React.FC = () => {
 
 
           <div className="w-full  md:w-1/2 flex items-center justify-center">
-            <img src={sdgp}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 "/>
+            <img src={sdgp}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
           </div>
         </div>
         </div>
