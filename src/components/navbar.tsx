@@ -7,8 +7,8 @@ const Navbar: React.FC = () => {
                     <li><a href=""> About </a></li>
                     <li><a href="#Skills"> Skills </a></li>
                     <li><a href="#Projects"> Projects </a> </li>
-                    <li><a> Certifications</a></li>
-                    <li><a> Education</a></li>
+                    <li><a href="#Certificates"> Certifications</a></li>
+                    <li><a href="#Education"> Education</a></li>
                     <li><a> Contact </a></li>
                 </ul>
             </div>
