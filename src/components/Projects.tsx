@@ -19,6 +19,7 @@ const Projects: React.FC = () => {
         // </div>
       <div id='Projects'>
         <p className='flex justify-center mb-7 text-2xl font-semibold '> My Projects </p>
+        
         <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
