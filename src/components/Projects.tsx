@@ -2,6 +2,7 @@ import finance1 from '../assets/finance.png';
 import sdgp from '../assets/sdgp.png';
 import student from '../assets/studentManagement.png';
 import youtube from '../assets/youtube.svg';
+import marineLife from '../assets/marineLife.png';
 
 const Projects: React.FC = () => {
     return (
@@ -19,7 +20,7 @@ const Projects: React.FC = () => {
         // </div>
       <div id='Projects'>
         <p className='flex justify-center mb-7 text-2xl font-semibold '> My Projects </p>
-        
+
         <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
@@ -85,7 +86,32 @@ const Projects: React.FC = () => {
 
 
           <div className="w-full  md:w-1/2 flex items-center justify-center">
-            <img src={sdgp}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
+            <img src={sdgp}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400" />
+          </div>
+        </div>
+        </div>
+
+
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-30">
+
+        <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
+
+          <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
+            <h2 className="text-2xl font-bold text-gray-800 mb-2">Life Below Water </h2>
+            <p> HTML | CSS | JavaScript</p>
+            <p className="text-gray-600 mt-3">A website dedicated to marine life, inspired by the UN’s Sustainable Development Goals. It features a splash screen, homepage, gallery, shop, user profiles, feedback form, sitemap, and team pages raising awareness and promoting ocean conservation through an interactive user experience.
+
+            </p>
+            <button className="mt-auto self-start bg-amber-600 text-white px-4 py-2 rounded-4xl flex hover:scale-105 cursor-pointer gap-1" 
+            onClick={() => window.open('https://youtu.be/drXpTm61dBU', '_blank')}>
+              <img src={youtube} /> 
+              Demo
+            </button>
+          </div>
+
+
+          <div className="w-full  md:w-1/2 flex items-center justify-center">
+            <img src={marineLife}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
           </div>
         </div>
         </div>
