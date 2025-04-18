@@ -1,6 +1,6 @@
 const Certificates: React.FC = () => {
     return(
-        < div id="Certificates" className="mb-50">
+        < div id="Certificates" className="mb-30">
         <p className="flex justify-center text-2xl font-semibold mb-10"> My Certifications </p>
         <div className="flex justify-center mb-50 gap-20 ">
         <div className=" space-y-5">
