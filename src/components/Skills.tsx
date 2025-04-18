@@ -4,7 +4,7 @@ const Skills: React.FC = () => {
         <div id="Skills" className="mb-50">
             <p className="flex justify-center text-2xl font-semibold mb-10"> My Skills </p>
 
-            <div className="flex gap-3 justify-center flex-wrap">
+            <div className="flex gap-3 justify-center flex-wrap px-50">
                 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
                 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
                 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>

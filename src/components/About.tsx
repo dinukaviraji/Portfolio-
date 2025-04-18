@@ -4,7 +4,7 @@ import linkedin from '../assets/linkedin-white.svg';
 const About: React.FC = () => {
 
     return (
-        <div className="flex px-50 gap-5 justify-center items-center flex-col md:flex-row mb-30 ">
+        <div id='About' className="flex px-50 gap-5 justify-center items-center flex-col md:flex-row mb-30 ">
             <img src={myphoto} className='w-80 rounded-full'></img>
             <p >
             I’m an enthusiastic IT student currently pursuing a degree in Computer Science at IIT. 
