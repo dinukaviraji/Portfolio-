@@ -1,8 +1,8 @@
 const Skills: React.FC = () => {
 
     return(
-        <div id="Skills" className="mb-50">
-            <p className="flex justify-center text-2xl font-semibold mb-10"> My Skills </p>
+        <div id="Skills" className="mb-30">
+            <p className="flex justify-center text-2xl font-semibold mb-10 underline"> My Skills </p>
 
             <div className="flex gap-3 justify-center flex-wrap px-50 ">
                 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>

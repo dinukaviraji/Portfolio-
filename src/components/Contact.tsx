@@ -6,7 +6,7 @@ import send from '../assets/send-mail.png';
 const Contact: React.FC = () => {
 
     return (
-        <div id="contact" className="mb-50">
+        <div id="contact" className="mb-30">
           <p className="flex justify-center text-2xl font-semibold mb-10">Connect with me</p>
           <div className="flex justify-center">
           <div className="w-200 h-100 border border-gray-300 rounded-md shadow-md flex flex-col md:flex-row overflow-hidden">

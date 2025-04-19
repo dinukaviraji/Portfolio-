@@ -1,7 +1,7 @@
 const Certificates: React.FC = () => {
     return(
         <div id="Certificates" >
-        <p className="flex justify-center text-2xl font-semibold mb-10"> My Certifications </p>
+        <p className="flex justify-center text-2xl font-semibold mb-10 underline"> My Certifications </p>
         <div className="flex justify-center mb-40 gap-20 ">
         <div className=" space-y-5">
             <p>  Certificate in Software Engineering | NIBM </p>

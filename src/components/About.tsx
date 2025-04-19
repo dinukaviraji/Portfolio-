@@ -4,6 +4,8 @@ import linkedin from '../assets/linkedin-white.svg';
 const About: React.FC = () => {
 
     return (
+        <>
+        <p className="flex justify-center text-2xl font-semibold mb-10 underline"> Who am I? </p>
         <div id='About' className="flex px-50 gap-5 justify-center items-center flex-col md:flex-row mb-30 ">
             <img src={myphoto} className='w-80 rounded-full'></img>
             <p >
@@ -24,7 +26,7 @@ const About: React.FC = () => {
             
             </p>          
         </div>
-
+        </>
         
     
 

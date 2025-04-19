@@ -3,7 +3,7 @@ const Education: React.FC = () => {
 
     return (
         <div id="Education">
-        <p className="flex justify-center text-2xl font-semibold mb-10"> My Education </p>
+        <p className="flex justify-center text-2xl font-semibold mb-10 underline"> My Education </p>
         <div className="flex flex-wrap justify-center mb-30 gap-5">
 
             <div className=" bg-gray-100 w-100 h-50 pl-5 pt-5 space-y-1">
