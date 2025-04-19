@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
 
     return (
         <div id="contact" className="mb-30">
-          <p className="flex justify-center text-2xl font-semibold mb-10">Connect with me</p>
+          <p className="flex justify-center text-2xl font-semibold mb-10 underline">Connect with me</p>
           <div className="flex justify-center">
           <div className="w-200 h-100 border border-gray-300 rounded-md shadow-md flex flex-col md:flex-row overflow-hidden">
             

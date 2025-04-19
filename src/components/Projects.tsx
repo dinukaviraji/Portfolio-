@@ -14,9 +14,9 @@ const Projects: React.FC = () => {
         <p className='flex justify-center mb-7 text-2xl font-semibold underline'> My Projects </p>
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md hover:scale-105 transition-transform duration-300">
 
-        <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
+        <div className="flex w-full max-w-4xl bg-white rounded-xl overflow-hidden">
 
           <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold text-gray-800 mb-2">Vyakarana  </h2>
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
 
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md hover:scale-105 transition-transform duration-300">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
 
@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
         </div>
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md hover:scale-105 transition-transform duration-300">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
 
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
 
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md hover:scale-105 transition-transform duration-300">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
 
@@ -109,7 +109,7 @@ const Projects: React.FC = () => {
 
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md hover:scale-105 transition-transform duration-300">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
 
@@ -134,7 +134,7 @@ const Projects: React.FC = () => {
 
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md hover:scale-105 transition-transform duration-300">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
 
@@ -158,7 +158,7 @@ const Projects: React.FC = () => {
         </div>
 
 
-        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-30 shadow-md">
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-30 shadow-md hover:scale-105 transition-transform duration-300">
 
         <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
 

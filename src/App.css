@@ -6,13 +6,11 @@
 
 @font-face {
     font-family: 'brown-sugar';
-    src: url('./fonts/brown-sugar.ttf')
-    format('truetype');
+    src: url('./fonts/brown-sugar.ttf') format('truetype');
  
 }
 
 @font-face {
-    font-family: 'FUtura Book font';
-    src: url('./fonts/Futura\ Book\ font.ttf')
-    format('truetype');
+    font-family: 'FUtura-Book-font';
+    src: url('./fonts/Futura-Book-font.ttf') format('truetype');
 }
