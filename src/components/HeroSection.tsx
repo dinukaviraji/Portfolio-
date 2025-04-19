@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
                 <p className="font-Futura Book font text-6xl font-bold text-amber-700 mt-4 mb-4">Dinuka Viraji</p>
                 <p> Aspiring Developer | Eager to Learn and Grow</p>
                 <button className="bg-amber-600 rounded-full px-4 py-2 mt-6 mb-6 text-white hover:scale-105 hover:bg-amber-500 hover:font-semibold cursor-pointer"> 
-                    Download CV 
+                    <a href='/DINUKA.pdf' target='_blank' rel='noopener noreferrer'> Download CV  </a>
                 </button>
 
                 <div className='flex mt-3 gap-4'>
