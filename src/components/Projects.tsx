@@ -7,6 +7,7 @@ import selfOrder from '../assets/images.jpg';
 import ticketingSystem from '../assets/ticket.jpg';
 import portfolio from '../assets/portfolio.png';
 import github from '../assets/github-white.svg';
+import bookstore from '../assets/bookstore.png';
 
 const Projects: React.FC = () => {
     return (
@@ -192,7 +193,7 @@ const Projects: React.FC = () => {
           </div>
 
           <div className="w-full  md:w-1/2 flex items-center justify-center">
-            <img src={ticketingSystem}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
+            <img src={ticketingSystem}  alt="ticketingSystem" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
           </div>
         </div>
         </div>
@@ -223,10 +224,42 @@ const Projects: React.FC = () => {
           </div>
 
           <div className="w-full  md:w-1/2 flex items-center justify-center">
-            <img src={portfolio}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
+            <img src={portfolio}  alt="portfolio" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
           </div>
         </div>
         </div>
+
+
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-30 shadow-md ">
+
+        <div className="flex w-full max-w-4xl bg-white rounded-xl  overflow-hidden">
+
+          <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
+            <h2 className="text-2xl font-bold text-gray-800 mb-2">Book Store API</h2>
+            <p> Java EE | JAX-RS (Jersey) | Apache Tomcat</p>
+            <p className="text-gray-600 mt-3">A RESTful API built with Java EE that manages books, authors, customers, and shopping carts for an online bookstore. It supports CRUD operations and error handling, with endpoints tested via Postman to ensure reliable backend functionality.
+
+            </p>
+            {/* <button className="mt-auto self-start bg-amber-600 text-white px-4 py-2 rounded-4xl flex hover:scale-105 cursor-pointer gap-1" 
+            onClick={() => window.open('https://isuruk2003.github.io/web-dev-group-coursework-iit/student_1/splash.html', '_blank')}>
+              <img src={youtube} /> 
+              Demo
+            </button> */}
+             <div className='flex mt-5 gap-5 '>
+            <button className='bg-gray-700 text-white px-4 py-2 rounded-4xl flex hover:scale-105 duration-150 cursor-pointer gap-1' 
+            onClick={() => window.open('https://github.com/dinukaviraji/Book-Store-API', '_blank')}>
+              <img src={github}/>
+              GitHub
+            </button>
+            </div>
+          </div>
+
+          <div className="w-full  md:w-1/2 flex items-center justify-center">
+            <img src={bookstore}  alt="bookstore" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400 " />
+          </div>
+        </div>
+        </div>
+
 
 
       </div>          
