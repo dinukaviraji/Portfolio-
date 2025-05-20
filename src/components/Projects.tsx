@@ -8,6 +8,7 @@ import ticketingSystem from '../assets/ticket.jpg';
 import portfolio from '../assets/portfolio.png';
 import github from '../assets/github-white.svg';
 import bookstore from '../assets/bookstore.png';
+import movie from '../assets/movie.png';
 
 const Projects: React.FC = () => {
     return (
@@ -44,7 +45,39 @@ const Projects: React.FC = () => {
             <img src={sdgp}  alt="Vyakarana" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400" />
           </div>
         </div>
+       </div>
+
+
+        <div className="flex flex-wrap justify-center bg-gray-100 w-200 h-100 mx-auto p-4 mb-20 shadow-md ">
+
+        <div className="flex w-full max-w-4xl bg-white rounded-xl overflow-hidden">
+
+          <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
+            <h2 className="text-2xl font-bold text-gray-800 mb-2">Movie Explorer </h2>
+            <p> React | MUI |TMDB API  </p>
+            <p className="text-gray-600 mt-3"> A Web application that allows users to explore movies using the TMDB API. Users can search for their favorite movies, view details and discover new content. The app features a user-friendly interface built with React and Material-UI providing an engaging experience for movie enthusiasts.
+
+            </p>
+            <div className='flex mt-5 gap-5 '>
+            <button className=" bg-amber-600 text-white px-4 py-2 rounded-4xl flex hover:scale-105 duration-150 cursor-pointer gap-1" 
+              onClick={() => window.open('https://movie-explorer-lemon.vercel.app', '_blank')}>
+              <img src={youtube} /> 
+              Demo
+            </button>
+            <button className='bg-gray-700 text-white px-4 py-2 rounded-4xl flex hover:scale-105 duration-150 cursor-pointer gap-1' 
+            onClick={() => window.open('https://github.com/dinukaviraji/Movie-Explorer', '_blank')}>
+              <img src={github}/>
+              GitHub
+            </button>
+            </div>
+          </div>
+
+          <div className="w-full  md:w-1/2 flex items-center justify-center">
+            <img src={movie}  alt="Movie Explorer Web App" className="w-full h-auto object-contain shadow-2xl rounded-lg ring-1 ring-gray-200 hover:scale-110 transition-transform duration-400" />
+          </div>
         </div>
+       </div>
+  
 
 
 
